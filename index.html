@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">    
     <style type="text/css">
         img.mr-3.small {
@@ -18,6 +19,21 @@
         small.text-muted:before {
            content: ' ';
            display: block;  
+        }
+        .fa {
+          padding: 3px;
+          font-size: 12px;
+          width: 20px;
+          text-align: center;
+          text-decoration: none;
+        }
+        .fa:hover {
+          opacity: 0.7;
+          text-decoration: none;
+        }
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
         }
     </style>
   </head>
@@ -63,227 +79,305 @@
     <div class="container-fluid mt-5">
     <a name="speakers"></a>
     <h2>Speakers</h2>
-    <ul class="list-unstyled">
 
-      <!-- TODO: Twitter link -->
-
-      <li class="media mb-3">
-        <a name="sp-seanb"></a>
+    <a name="sp-seanb"></a>
+    <div class="media mb-3 mt-3">
+      <div class="media-left">
         <img class="mr-3 small" src="./assets/speakers/seanb.jpg" alt="Sean Buchanan">
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">Sean Buchanan
-          <small class="text-muted">Cambridge Investment Research, Enterprise Architect</small>
-          </h5>
-          <p class="text-justify">Over 25 years of experience with software development. Currently an Enterprise Architect at Cambridge Investment Research. I've spent quite a bit of time on the subject of domain-driven design.</p>
-          <p><a href="#ss-ddb">Persisting Aggregates with a Document Database</a><br/>
-          <a href="#sc-ddb">4:30pm, Longs Peak</a></p>
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/SeanBuchanan" class="fa fa-twitter"></a>
         </div>
-      </li>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Sean Buchanan
+        <small class="text-muted">Cambridge Investment Research, Enterprise Architect</small>
+        </h5>
+        <p class="text-justify">Over 25 years of experience with software development. Currently an Enterprise Architect at Cambridge Investment Research. I've spent quite a bit of time on the subject of domain-driven design.</p>
+        <p><a href="#ss-ddb">Persisting Aggregates with a Document Database</a><br/>
+        <a href="#sc-ddb">4:30pm, Longs Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-        <a name="sp-mattd"></a>
+    <a name="sp-mattd"></a>
+    <div class="media mb-3">
+      <div class="media-left">
         <img class="mr-3 small" src="./assets/speakers/mattd.jpg" alt="Matt Dixon">
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">Matt Dixon
-          <small class="text-muted">Front Range Systems, Managing Director/Founder</small>
-          </h5>
-          <p class="text-justify">Matt is owner and founder of Front Range Systems, a software consulting company focusing on custom software solutions for its clients. Matt has over 17 years of professional development experience, and loves solving complex problems with simple solutions. He has helped organizations through mentorship and training and specializes in professional and enterprise solutions with various technologies including HTML5, AngularJS, ASP.Net, WPF and C#.</p>
-          <p><a href="#ss-efc">Entity Framework Core with MySQL and SQL Server</a><br/>
-          <a href="#sc-efc">1:00pm, Pyramid Peak</a></p>
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/frontrangesys" class="fa fa-twitter"></a>
         </div>
-      </li>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Matt Dixon
+        <small class="text-muted">Front Range Systems, Managing Director/Founder</small>
+        </h5>
+        <p class="text-justify">Matt is owner and founder of Front Range Systems, a software consulting company focusing on custom software solutions for its clients. Matt has over 17 years of professional development experience, and loves solving complex problems with simple solutions. He has helped organizations through mentorship and training and specializes in professional and enterprise solutions with various technologies including HTML5, AngularJS, ASP.Net, WPF and C#.</p>
+        <p><a href="#ss-efc">Entity Framework Core with MySQL and SQL Server</a><br/>
+        <a href="#sc-efc">1:00pm, Pyramid Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-        <a name="sp-adamd"></a>
+    <a name="sp-adamd"></a>
+    <div class="media mb-3">
+      <div class="media-left">
         <img class="mr-3 small" src="./assets/speakers/adamd.jpg" alt="Adam Durazo">
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">Adam Durazo
-          <small class="text-muted">Datalere, Senior Consultant</small>
-          </h5>
-          <p class="text-justify">Entrepreneur, hacker, developer. Adam has enjoyed working with many different languages ranging from VB5 to Python and numerous in between. As a Senior Consultant at Datalere, he focuses on tools to bridge the gap between data and the world. Whither the need is to collecting data from the world or efficiently presenting data.</p>
-          <p><a href="#ss-d3">Harnessing D3.js to visualize geographical data</a><br/>
-          <a href="#sc-d3">1:00pm, Maroon Bells 1</a></p>
-          </div>
-      </li>
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/adamdurazo" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Adam Durazo
+        <small class="text-muted">Datalere, Senior Consultant</small>
+        </h5>
+        <p class="text-justify">Entrepreneur, hacker, developer. Adam has enjoyed working with many different languages ranging from VB5 to Python and numerous in between. As a Senior Consultant at Datalere, he focuses on tools to bridge the gap between data and the world. Whither the need is to collecting data from the world or efficiently presenting data.</p>
+        <p><a href="#ss-d3">Harnessing D3.js to visualize geographical data</a><br/>
+        <a href="#sc-d3">1:00pm, Maroon Bells 1</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-        <a name="sp-dgoins"></a>
+    <a name="sp-dgoins"></a>
+    <div class="media mb-3">
+      <div class="media-left">
         <img class="mr-3 small" src="./assets/speakers/dgoins.jpg" alt="Dwight Goins">
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">Dwight Goins
-          <small class="text-muted">Thoth Speed Engineers, CAO</small>
-          </h5>
-          <p class="text-justify">Dwight Goins is the Chief Algorithms Officer (CAO) and Lead Emerging Experiences Consultant at THOTH Speed Engineers located in Coral Springs, Florida. Dwight spends most of his time leading his team to implement Integration solutions using Azure and AWS. He's also built automated frameworks in Chef for DevOps teams with various clients. In his night life, he leads a group of ideologists, scientists and developers towards creating that next AI, AR and VR medical based application that heralds in the future. He is also familiar with IoT, R and Machine Learning. His fascination however is with the emerging experience brand of 1-D and 3-D platforms such as bots (Conversation as a platform) and Augmented Reality, Virtual Reality and Mixed Reality using head mounted displays such as HoloLens. Outside of Microsoft, believe it or not, he is an avid Linux User (Gentoo being his favorite distro), Open source contributor, as well as an InfoSec Secure Coding Instructor. Along with Open source development, he also mentors and teaches with the TEALs program. He maintains an active MCT (Microsoft Certified Trainer) license, and holds the MCPD, MCSD certifications as well as a Certified Data Recovery Professional (CRDP) license. In his spare time he finds a way to take care of his 3 beloved daughters, wife, and extended family by constantly keeping them entertained through travelling, and family fun.<br/>
-          You can contact the third person Dwight Goins at <a href="mailto:dngoins@thothspeedengineers.com">dngoins@thothspeedengineers.com</a> or read about his first person experiences at <a href="http://dgoins.wordpress.com">http://dgoins.wordpress.com</a></p>
-          <p><a href="#ss-mx3">Working with Mixed Reality Toolkits</a><br/>
-          <a href="#sc-mx3">4:30pm, Maroon Bells 2</a></p>
-          </div>
-      </li>
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/dngoins" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Dwight Goins
+        <small class="text-muted">Thoth Speed Engineers, CAO</small>
+        </h5>
+        <p class="text-justify">Dwight Goins is the Chief Algorithms Officer (CAO) and Lead Emerging Experiences Consultant at THOTH Speed Engineers located in Coral Springs, Florida. Dwight spends most of his time leading his team to implement Integration solutions using Azure and AWS. He's also built automated frameworks in Chef for DevOps teams with various clients. In his night life, he leads a group of ideologists, scientists and developers towards creating that next AI, AR and VR medical based application that heralds in the future. He is also familiar with IoT, R and Machine Learning. His fascination however is with the emerging experience brand of 1-D and 3-D platforms such as bots (Conversation as a platform) and Augmented Reality, Virtual Reality and Mixed Reality using head mounted displays such as HoloLens. Outside of Microsoft, believe it or not, he is an avid Linux User (Gentoo being his favorite distro), Open source contributor, as well as an InfoSec Secure Coding Instructor. Along with Open source development, he also mentors and teaches with the TEALs program. He maintains an active MCT (Microsoft Certified Trainer) license, and holds the MCPD, MCSD certifications as well as a Certified Data Recovery Professional (CRDP) license. In his spare time he finds a way to take care of his 3 beloved daughters, wife, and extended family by constantly keeping them entertained through travelling, and family fun.<br/>
+        You can contact the third person Dwight Goins at <a href="mailto:dngoins@thothspeedengineers.com">dngoins@thothspeedengineers.com</a> or read about his first person experiences at <a href="http://dgoins.wordpress.com">http://dgoins.wordpress.com</a></p>
+        <p><a href="#ss-mx3">Working with Mixed Reality Toolkits</a><br/>
+        <a href="#sc-mx3">4:30pm, Maroon Bells 2</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-benh"></a>
-          <img class="mr-3 small" src="./assets/speakers/benh.jpg" alt="Ben Hoelting">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Ben Hoelting
-            <small class="text-muted">Aspenware, Senior Technologist</small>
-            </h5>
-            <p class="text-justify">Ben is a software guy with "people skills". He loves software and technology but also enjoys sports, movies and spending time with his wife and three children. In truth, he’s just a big kid. He loves designing systems that solve real world problems. There is nothing more satisfying than seeing something you helped develop being used by the end users. Ben joined the IT industry in 1996 as an intern and has worked with .NET since its inception back in 2001.  This has given him the experience of a senior level full stack .NET developer.  He is an experienced speaker and presents at the Visual Studio Live conferences all around the country. He loves sharing his experiences with developing software.  Ben is a Microsoft MVP in Visual Studio Development Technologies and a Microsoft Certified Technology Specialist (MCTS) for Web and Windows .NET 4.0. His twitter stream is at <a href="https://twitter.com/benhnet">https://twitter.com/benhnet</a>.  Finally, Ben is very involved in the local .NET community and is the leader of the South Colorado .NET User Group.</p>
-            <p><a href="#ss-ids">Securing Client Side Apps With Identity Server 4</a><br/>
-            <a href="#sc-ids">11:00am, Longs Peak</a></p>
-          </div>
-      </li>
+    <a name="sp-benh"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/benh.jpg" alt="Ben Hoelting">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/BenHNet" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Ben Hoelting
+        <small class="text-muted">Aspenware, Senior Technologist</small>
+        </h5>
+        <p class="text-justify">Ben is a software guy with "people skills". He loves software and technology but also enjoys sports, movies and spending time with his wife and three children. In truth, he’s just a big kid. He loves designing systems that solve real world problems. There is nothing more satisfying than seeing something you helped develop being used by the end users. Ben joined the IT industry in 1996 as an intern and has worked with .NET since its inception back in 2001.  This has given him the experience of a senior level full stack .NET developer.  He is an experienced speaker and presents at the Visual Studio Live conferences all around the country. He loves sharing his experiences with developing software.  Ben is a Microsoft MVP in Visual Studio Development Technologies and a Microsoft Certified Technology Specialist (MCTS) for Web and Windows .NET 4.0. His twitter stream is at <a href="https://twitter.com/benhnet">https://twitter.com/benhnet</a>.  Finally, Ben is very involved in the local .NET community and is the leader of the South Colorado .NET User Group.</p>
+        <p><a href="#ss-ids">Securing Client Side Apps With Identity Server 4</a><br/>
+        <a href="#sc-ids">11:00am, Longs Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-shawnk"></a>
-          <img class="mr-3 small" src="./assets/speakers/shawnk.jpg" alt="Shawn Kendrot">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Shawn Kendrot</h5>
-            <p class="text-justify"></p>
-            <p><a href="#ss-xmr">TBD &ndash; Windows 10/Xamarin</a><br/>
-            <a href="#sc-xmr">2:45pm, Pyramid Peak</a></p>
-          </div>
-      </li>
+    <a name="sp-shawnk"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/shawnk.jpg" alt="Shawn Kendrot">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/skendrot" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Shawn Kendrot</h5>
+        <p class="text-justify"></p>
+        <p><a href="#ss-xmr">TBD &ndash; Windows 10/Xamarin</a><br/>
+        <a href="#sc-xmr">2:45pm, Pyramid Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-elyl"></a>
-          <img class="mr-3 small" src="./assets/speakers/elyl.jpg" alt="Ely Lucas">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Ely Lucas
-            <small class="text-muted">Ionic</small>
-            </h5>
-            <p class="text-justify">Ely Lucas is a web and mobile developer in Denver. He  works as a software engineer for Ionic.</p>
-            <p><a href="#ss-ts">Full Stack TypeScript &ndash; Harness the power of TS on the web and server</a><br/>
-            <a href="#sc-ts">11:00am, Maroon Bells 1</a></p>
-          </div>
-      </li>
+    <a name="sp-elyl"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/elyl.jpg" alt="Ely Lucas">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/elylucas" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Ely Lucas
+        <small class="text-muted">Ionic</small>
+        </h5>
+        <p class="text-justify">Ely Lucas is a web and mobile developer in Denver. He  works as a software engineer for Ionic.</p>
+        <p><a href="#ss-ts">Full Stack TypeScript &ndash; Harness the power of TS on the web and server</a><br/>
+        <a href="#sc-ts">11:00am, Maroon Bells 1</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-darenm"></a>
+    <a name="sp-darenm"></a>
+    <div class="media mb-3">
+      <div class="media-left">
           <img class="mr-3 small" src="./assets/speakers/darenm.jpg" alt="Daren May">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Daren May
-            <small class="text-muted">CustomMayd, President</small>
-            </h5>
-            <p class="text-justify">Daren May is the President and founder of CustomMayd, a company that specializes in designing and building developer training and next-level digital experiences. Daren is a Windows Development MVP and has written and presented many training courses including Microsoft Virtual Academy videos.</p>
-            <p><a href="#ss-win10">Light Up Your App with Windows 10 Fall Creators Update</a><br/>
-            <a href="#sc-win10">1:00pm, Longs Peak</a></p>
-          </div>
-      </li>
+        <div class="text-right mt-1 mr-4">
+          <a href="https://twitter.com/darenmay" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Daren May
+        <small class="text-muted">CustomMayd, President</small>
+        </h5>
+        <p class="text-justify">Daren May is the President and founder of CustomMayd, a company that specializes in designing and building developer training and next-level digital experiences. Daren is a Windows Development MVP and has written and presented many training courses including Microsoft Virtual Academy videos.</p>
+        <p><a href="#ss-win10">Light Up Your App with Windows 10 Fall Creators Update</a><br/>
+        <a href="#sc-win10">1:00pm, Longs Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-shanen"></a>
-          <img class="mr-3 small" src="./assets/speakers/shanen.jpg" alt="Shane Neuville">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Shane Neuville
-            <small class="text-muted">SilverSalmon/PingARing, Lead Developer and Mobile Development</small>
-            </h5>
-            <p class="text-justify">Shane Neuville is the Lead Consultant for Silver Salmon and co-founder of PingARing. He's been building MVVM powered applications for the past 10 years in WPF, Silverlight and currently spends the majority of his time building Xamarin mobile applications and wearables with his wife.  He's a contributor to the ReactiveUI OSS project and has been developing Functional Reactive Uis for the past 3 years.</p>
-            <p><a href="#ss-rui">Building Reactive User Interfaces with ReactiveUI and DynamicData</a><br/>
-            <a href="#sc-rui">4:30pm, Pyramid Peak</a></p>
-          </div>
-      </li>
+    <a name="sp-shanen"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/shanen.jpg" alt="Shane Neuville">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/PureWeen" class="fa fa-twitter"></a>
+        </div>
+      </div> 
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Shane Neuville
+        <small class="text-muted">SilverSalmon/PingARing, Lead Developer and Mobile Development</small>
+        </h5>
+        <p class="text-justify">Shane Neuville is the Lead Consultant for Silver Salmon and co-founder of PingARing. He's been building MVVM powered applications for the past 10 years in WPF, Silverlight and currently spends the majority of his time building Xamarin mobile applications and wearables with his wife.  He's a contributor to the ReactiveUI OSS project and has been developing Functional Reactive Uis for the past 3 years.</p>
+        <p><a href="#ss-rui">Building Reactive User Interfaces with ReactiveUI and DynamicData</a><br/>
+        <a href="#sc-rui">4:30pm, Pyramid Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-jnixon"></a>
-          <img class="mr-3 small" src="./assets/speakers/jnixon.jpg" alt="Jerry Nixon">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Jerry Nixon
-            <small class="text-muted">Microsoft</small>
-            </h5>
-            <p class="text-justify"></p>
-            <p><a href="#ss-ai">Artificial Intelligence for Everyone, even you</a><br/>
-            <a href="#sc-ai">9:00am, Maroon Bells 1 &amp; 2</a></p>
-          </div>
-      </li>
+    <a name="sp-jnixon"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/jnixon.jpg" alt="Jerry Nixon">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/jerrynixon" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Jerry Nixon
+        <small class="text-muted">Microsoft</small>
+        </h5>
+        <p class="text-justify"></p>
+        <p><a href="#ss-ai">Artificial Intelligence for Everyone, even you</a><br/>
+        <a href="#sc-ai">9:00am, Maroon Bells 1 &amp; 2</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-daven"></a>
-          <img class="mr-3 small" src="./assets/speakers/daven.jpg" alt="Dave Noderer">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Dave Noderer
-            <small class="text-muted">Computer Ways, Inc., President/CEO</small>
-            </h5>
-            <p class="text-justify">CEO / President and founder of Computer Ways, Inc., a Microsoft Partner. Mr. Noderer holds a BS in Electrical Engineering from Rochester Institute of Technology with graduate and continuing education courses from University of Rochester and Northeastern University. He spent over 20 years designing multiprocessor computers, writing microcode and managing projects before starting Computer Ways, Inc. in 1994. Dave is a software developer, Microsoft MVP, ASPNet Insider and is very active in .net User Group communities. He spent 3 years as an officer and director of INETA (International .NET Association) where he oversaw the enrollment and support of hundreds of user groups worldwide. Since 2001 he has been running the Florida .NET User groups currently meeting in Deerfield Beach, Ft Lauderdale, and West Palm plus a very successful annual South Florida Code Camp since 2005 which attracts 1000 developers for a day of free .net education and networking. He has also been involved in community activities over the years participating in and helping organize and plan leadership programs in both Ft Lauderdale and Deerfield Beach. Dave is or has been an officer on the board of directors of the Deerfield Beach Historical Society, Kiwanis of Deerfield Beach, Deerfield Beach / Lighthouse Point Relay for Life, Hillsboro Lighthouse Preservation Society and the Deerfield Beach Chamber. Dave lives a block from the beach in Deerfield Beach, FL and enjoys walking and yoga on the beach.</p>
-            <p><a href="#ss-mx1">Mixed Reality Overview and Setup Lab</a><br/>
-            <a href="#sc-mx1">1:00pm, Maroon Bells 2</a></p>
-          </div>
-      </li>
+    <a name="sp-daven"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/daven.jpg" alt="Dave Noderer">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/davenoderer" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Dave Noderer
+        <small class="text-muted">Computer Ways, Inc., President/CEO</small>
+        </h5>
+        <p class="text-justify">CEO / President and founder of Computer Ways, Inc., a Microsoft Partner. Mr. Noderer holds a BS in Electrical Engineering from Rochester Institute of Technology with graduate and continuing education courses from University of Rochester and Northeastern University. He spent over 20 years designing multiprocessor computers, writing microcode and managing projects before starting Computer Ways, Inc. in 1994. Dave is a software developer, Microsoft MVP, ASPNet Insider and is very active in .net User Group communities. He spent 3 years as an officer and director of INETA (International .NET Association) where he oversaw the enrollment and support of hundreds of user groups worldwide. Since 2001 he has been running the Florida .NET User groups currently meeting in Deerfield Beach, Ft Lauderdale, and West Palm plus a very successful annual South Florida Code Camp since 2005 which attracts 1000 developers for a day of free .net education and networking. He has also been involved in community activities over the years participating in and helping organize and plan leadership programs in both Ft Lauderdale and Deerfield Beach. Dave is or has been an officer on the board of directors of the Deerfield Beach Historical Society, Kiwanis of Deerfield Beach, Deerfield Beach / Lighthouse Point Relay for Life, Hillsboro Lighthouse Preservation Society and the Deerfield Beach Chamber. Dave lives a block from the beach in Deerfield Beach, FL and enjoys walking and yoga on the beach.</p>
+        <p><a href="#ss-mx1">Mixed Reality Overview and Setup Lab</a><br/>
+        <a href="#sc-mx1">1:00pm, Maroon Bells 2</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-nataliep"></a>
-          <img class="mr-3 small" src="./assets/speakers/nataliep.jpg" alt="Natalie Perez">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Natalie Perez
-            <small class="text-muted">Software Engineer</small>
-            </h5>
-            <p class="text-justify">Natalie Perez is a Software Engineer who specializes in VR/AR/MR development with a focus in game development. In addition to working at Thoth Speed Engineers, a training and consulting, and app development company, she is also an instructor at Code/Art, a tutor at the Miami Animation & Gaming International Complex, and formerly part of the WebDev teaching team at Miami Dade College. Natalie spent her former years working at a law office where she coded and created reports and documents while converting the office to a paperless ecosystem. She also created training documentations and videos, and instructed groups and one-on-one trainings. Natalie graduated Magna Cum Laude with her Bachelor’s Degree from Florida International University and is continuously learning about the new and exciting developments in the mixed realities.</p>
-            <p><a href="#ss-mx2">Mixed Reality Introduction to Unity</a><br/>
-            <a href="#sc-mx2">2:45pm, Maroon Bells 2</a></p>
-          </div>
-      </li>
+    <a name="sp-nataliep"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/nataliep.jpg" alt="Natalie Perez">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/3SleepyOwls" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Natalie Perez
+        <small class="text-muted">Software Engineer</small>
+        </h5>
+        <p class="text-justify">Natalie Perez is a Software Engineer who specializes in VR/AR/MR development with a focus in game development. In addition to working at Thoth Speed Engineers, a training and consulting, and app development company, she is also an instructor at Code/Art, a tutor at the Miami Animation & Gaming International Complex, and formerly part of the WebDev teaching team at Miami Dade College. Natalie spent her former years working at a law office where she coded and created reports and documents while converting the office to a paperless ecosystem. She also created training documentations and videos, and instructed groups and one-on-one trainings. Natalie graduated Magna Cum Laude with her Bachelor’s Degree from Florida International University and is continuously learning about the new and exciting developments in the mixed realities.</p>
+        <p><a href="#ss-mx2">Mixed Reality Introduction to Unity</a><br/>
+        <a href="#sc-mx2">2:45pm, Maroon Bells 2</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-daver"></a>
-          <img class="mr-3 small" src="./assets/speakers/daver.jpg" alt="Dave Rael">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Dave Rael</h5>
-            <p class="text-justify">Dave Rael a dad, husband, podcaster, and software developer and architect. He hosts the Developer On Fire podcast to share the humanity of software developers.</p>
-            <p><a href="#ss-netc">Know Your Tools &ndash; Making the Most of Working with .NET Core</a><br/>
-            <a href="#sc-netc">11:00am, Pyramid Peak</a></p>
-          </div>
-      </li>
+    <a name="sp-daver"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/daver.jpg" alt="Dave Rael">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/raelyard" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Dave Rael</h5>
+        <p class="text-justify">Dave Rael a dad, husband, podcaster, and software developer and architect. He hosts the Developer On Fire podcast to share the humanity of software developers.</p>
+        <p><a href="#ss-netc">Know Your Tools &ndash; Making the Most of Working with .NET Core</a><br/>
+        <a href="#sc-netc">11:00am, Pyramid Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-isaks"></a>
-          <img class="mr-3 small" src="./assets/speakers/isaks.jpg" alt="Isak Sky">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Isak Sky
-            <small class="text-muted">Xledger, Chief Engineer</small>
-            </h5>
-            <p class="text-justify">Isak Sky has been developing software for 8 years, and loves both metaprogramming and functional languages. He likes trying to find the best use cases for dynamic and static programming languages, and enjoys writing code in F#, SQL and Clojure. In his spare time, he enjoys snowboarding and mountain biking. He is based in Colorado Springs, and can be found on twitter as <a href="https://twitter.com/isaksky">@isaksky</a>.</p>
-            <p><a href="#ss-sts">Working with SQL syntax trees in .NET</a><br/>
-            <a href="#sc-sts">2:45pm, Longs Peak</a></p>
-          </div>
-      </li>
+    <a name="sp-isaks"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/isaks.jpg" alt="Isak Sky">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/isaksky" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Isak Sky
+        <small class="text-muted">Xledger, Chief Engineer</small>
+        </h5>
+        <p class="text-justify">Isak Sky has been developing software for 8 years, and loves both metaprogramming and functional languages. He likes trying to find the best use cases for dynamic and static programming languages, and enjoys writing code in F#, SQL and Clojure. In his spare time, he enjoys snowboarding and mountain biking. He is based in Colorado Springs, and can be found on twitter as <a href="https://twitter.com/isaksky">@isaksky</a>.</p>
+        <p><a href="#ss-sts">Working with SQL syntax trees in .NET</a><br/>
+        <a href="#sc-sts">2:45pm, Longs Peak</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-thomasstp"></a>
-          <img class="mr-3 small" src="./assets/speakers/thomasstp.jpg" alt="Thomas St Pierre">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Thomas St Pierre
-            <small class="text-muted">Neudesic, Senior Consultant</small>
-            </h5>
-            <p class="text-justify">Thomas learned C++ at age 11, written DOS games in Turbo Pascal, ray tracing routines in MASM and helped usher in web and distributed programming through and beyond the DotCom boom.  He is now a solution architect spanning web, mobile, cloud/onprem/hybrid infrastructure and transforms IT organizations on applied Agile and continuous delivery process improvements.</p>
-            <p><a href="#ss-rdx">Maintainable Javascript Apps with REDUX</a><br/>
-            <a href="#sc-rdx">2:45pm, Maroon Bells 1</a></p>
-          </div>
-      </li>
+    <a name="sp-thomasstp"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/thomasstp.jpg" alt="Thomas St Pierre">
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Thomas St Pierre
+        <small class="text-muted">Neudesic, Senior Consultant</small>
+        </h5>
+        <p class="text-justify">Thomas learned C++ at age 11, written DOS games in Turbo Pascal, ray tracing routines in MASM and helped usher in web and distributed programming through and beyond the DotCom boom.  He is now a solution architect spanning web, mobile, cloud/onprem/hybrid infrastructure and transforms IT organizations on applied Agile and continuous delivery process improvements.</p>
+        <p><a href="#ss-rdx">Maintainable Javascript Apps with REDUX</a><br/>
+        <a href="#sc-rdx">2:45pm, Maroon Bells 1</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-mattv"></a>
-          <img class="mr-3 small" src="./assets/speakers/mattv.jpg" alt="Matt Vaughn">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Matt Vaughn
-            <small class="text-muted">Build Motion, Gorilla Coder</small>
-            </h5>
-            <p class="text-justify">Matt Vaughn has been building Microsoft based web applications since 1998. He specializes in building Web APIs and back end application services using rule engine and action-based frameworks. Matt recently published two NPM packages for building rich business logic using Typescript for Angular applications (<a href="https://www.npmjs.com/~buildmotion">https://www.npmjs.com/~buildmotion</a>).</p>
-            <p><a href="#ss-ang">Angular Custom Modules &ndash; To infinity and beyond!</a><br/>
-            <a href="#sc-ang">4:30pm, Maroon Bells 1</a></p>
-          </div>
-      </li>
+    <a name="sp-mattv"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/mattv.jpg" alt="Matt Vaughn">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/HybridMobileApp" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Matt Vaughn
+        <small class="text-muted">Build Motion, Gorilla Coder</small>
+        </h5>
+        <p class="text-justify">Matt Vaughn has been building Microsoft based web applications since 1998. He specializes in building Web APIs and back end application services using rule engine and action-based frameworks. Matt recently published two NPM packages for building rich business logic using Typescript for Angular applications (<a href="https://www.npmjs.com/~buildmotion">https://www.npmjs.com/~buildmotion</a>).</p>
+        <p><a href="#ss-ang">Angular Custom Modules &ndash; To infinity and beyond!</a><br/>
+        <a href="#sc-ang">4:30pm, Maroon Bells 1</a></p>
+      </div>
+    </div>
 
-      <li class="media mb-3">
-          <a name="sp-wwegerson"></a>
-          <img class="mr-3 small" src="./assets/speakers/wwegerson.jpg" alt="William Wegerson">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">William Wegerson</h5>
-            <p class="text-justify"></p>
-            <p><a href="#ss-azure">Create an Azure Web Site</a><br/>
-            <a href="#sc-azure">11:00am, Maroon Bells 2</a></p>
-          </div>
-      </li>
+    <a name="sp-wwegerson"></a>
+    <div class="media mb-3">
+      <div class="media-left">
+        <img class="mr-3 small" src="./assets/speakers/wwegerson.jpg" alt="William Wegerson">
+        <div class="text-right mt-1 mr-3">
+          <a href="https://twitter.com/OmegaMan" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">William Wegerson</h5>
+        <p class="text-justify"></p>
+        <p><a href="#ss-azure">Create an Azure Web Site</a><br/>
+        <a href="#sc-azure">11:00am, Maroon Bells 2</a></p>
+      </div>
+    </div>
 
-    </ul>
     </div>
     
     <div class="container-fluid mt-5">
